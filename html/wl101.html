@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>轮播效果图</title>
+<style type="text/css">
+	body{
+		margin:0px;
+}
+	img{
+		width:1263px;
+		height:612px;
+}
+</style>
+</head>
+
+<body>
+<div id="i1">
+	<img src="../img/图%20(11).jpg"/>
+</div>
+</body>
+<script>
+	var x= document.getElementById("i1");
+	var n=11;
+	setInterval(function(){
+			if(n>14) n=11;
+			i1.innerHTML="<img src='../img/图%20("+n+").jpg'/>";
+			n++;
+		},2000);
+	
+</script>
+</html>

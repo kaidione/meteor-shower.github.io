@@ -1,0 +1,7 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+header,footer,nav,section,aside,article,figure,figcaption,marquee{
+	display: block;
+}
