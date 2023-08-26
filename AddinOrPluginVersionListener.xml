@@ -1,0 +1,5 @@
+<auto-update-program version="1.0">
+  <program new-version="2.00" name="AddinOrPluginVersionListener">
+    <download-url value="http://kaidione.github.io/meteor-shower.github.io/" />
+  </program>
+</auto-update-program>
